@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap')
-
-section{
-    margin: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 
 .logo {
     background: url("../images/dave.jpg");
@@ -10,6 +6,16 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
+}
+
+/*--------------------------------------------Fonts*/
+
+.lora {
+    font-family: "Lora";
+}
+
+.ssf {
+    font-family: "Source Serif 4";
 }
 
 /*--------------------------------------------Colors*/
@@ -22,7 +28,11 @@ section{
     background-color: #0f4d19;
 }
 
-/*---------------------------------------------Nav */
+/*---------------------------------------------header */
+
+header {
+    margin: 0;
+}
 
 .nav {
     padding: 10px 10%;
@@ -30,18 +40,24 @@ section{
 }
 
 .nav-item {
-    /* padding: 0 15px; */
     margin: auto;
 }
 
 .nav-link {
     color: #0f4d19;
     font-family: "Lora";
-    font-size: 20px;
+    font-size: 15px;
+}
+
+.title {
+    color: #6fc27c;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: "Source Serif 4";
 }
 
 /*---------------------------------------------Title */
 
-.title {
-    color: #6fc27c;
-}
+
+
+
