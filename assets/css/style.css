@@ -5,7 +5,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 260px;
 }
 
 /*--------------------------------------------Fonts*/
@@ -21,7 +21,7 @@
 /*--------------------------------------------Colors*/
 
 .bg-color-nav {
-    background-color: #6fc27c;
+    background-color: #42f5b9;
     height: 100px;
 }
 .bg-color-title {
@@ -45,18 +45,37 @@ header {
 
 .nav-link {
     color: #0f4d19;
-    font-family: "Lora";
     font-size: 15px;
 }
 
 .title {
-    color: #6fc27c;
-    margin-top: 20px;
-    margin-left: 20px;
-    font-family: "Source Serif 4";
+    color: #42f5b9;
+    text-align: center;
+    padding-top: 22px;
 }
 
-/*---------------------------------------------Title */
+/*---------------------------------------------Main */
+
+.main {
+    background-color: #42f5b9;
+    color: #0f4d19;
+    text-align: center;
+    padding: 12px 50px 0px; 
+}
+
+.main h2 {
+    font-size: 25px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.main p {
+    font-size: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+
 
 
 
