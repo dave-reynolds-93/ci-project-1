@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 
+body {
+    height: 100%;
+}
+
 .logo {
     background: url("../images/dave.jpg");
     background-position: center;
@@ -20,11 +24,11 @@
 
 /*--------------------------------------------Colors*/
 
-.bg-color-nav {
+.bg-color-light {
     background-color: #42f5b9;
     height: 100px;
 }
-.bg-color-title {
+.bg-color-dark {
     background-color: #0f4d19;
 }
 
@@ -52,6 +56,11 @@ header {
     color: #42f5b9;
     text-align: center;
     padding-top: 22px;
+    font-weight: 400;
+}
+
+.top {
+    --bs-gutter-x: 0;
 }
 
 /*---------------------------------------------Main */
@@ -60,7 +69,7 @@ header {
     background-color: #42f5b9;
     color: #0f4d19;
     text-align: center;
-    padding: 12px 50px 0px; 
+    padding: 15px 50px 13px; 
 }
 
 .main h2 {
@@ -74,6 +83,33 @@ header {
     padding-bottom: 10px;
     margin-bottom: 0px;
 }
+
+/*---------------------------------------------Footer */
+
+footer {
+    margin: 0;
+}
+
+footer a {
+    color: #0f4d19;
+    text-decoration: none;
+}
+
+.centered {
+    text-align: center;
+    padding: 40px 0;
+}
+
+span {
+    padding: 0 100px;
+    color: #42f5b9;
+    font-size: 25px;
+}
+
+.fa-book {
+    padding-right: 2px;
+}
+
 
 
 
