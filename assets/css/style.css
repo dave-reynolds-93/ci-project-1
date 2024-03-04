@@ -15,11 +15,11 @@ body {
 /*--------------------------------------------Fonts*/
 
 .lora {
-    font-family: "Lora";
+    font-family: "Lora", serif;
 }
 
 .ssf {
-    font-family: "Source Serif 4";
+    font-family: "Source Serif 4", serif;
 }
 
 /*--------------------------------------------Colors*/
@@ -61,7 +61,11 @@ header {
 
 .top {
     --bs-gutter-x: 0;
+    margin-right: 0;
+    padding-right: 0;
 }
+
+
 
 /*---------------------------------------------Main */
 
@@ -84,6 +88,12 @@ header {
     margin-bottom: 0px;
 }
 
+.main-icon {
+    padding-right: 10px;
+}
+
+
+
 /*---------------------------------------------Footer */
 
 footer {
@@ -95,19 +105,24 @@ footer a {
     text-decoration: none;
 }
 
-.centered {
-    text-align: center;
-    padding: 40px 0;
-}
-
 span {
-    padding: 0 100px;
     color: #42f5b9;
     font-size: 25px;
+    padding: 0px 100px 0 100px;    
 }
 
 .fa-book {
     padding-right: 2px;
+}
+
+.business {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.social {
+    text-align: center;
+    padding-top: 30px;
 }
 
 
