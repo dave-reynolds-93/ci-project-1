@@ -12,6 +12,10 @@ body {
     min-height: 260px;
 }
 
+#no-gutter {
+    --bs-gutter-x: 0;
+}
+
 /*--------------------------------------------Fonts*/
 
 .lora {
@@ -67,13 +71,14 @@ header {
 
 
 
-/*---------------------------------------------Main */
+
+/*---------------------------------------------Index Main */
 
 .main {
     background-color: #42f5b9;
     color: #0f4d19;
     text-align: center;
-    padding: 15px 50px 13px; 
+    padding: 15px 50px 20px; 
 }
 
 .main h2 {
@@ -90,6 +95,10 @@ header {
 
 .main-icon {
     padding-right: 10px;
+}
+
+.main-info {
+    padding-top: 15px;
 }
 
 
@@ -125,9 +134,54 @@ span {
     padding-top: 30px;
 }
 
+/*---------------------------------------------Video section */
 
+.video-section {
+    background-color: #42f5b9;
+    color: #0f4d19;
+    text-align: center;
+    padding: 40px 50px 50px; 
+}
 
+#video-heading {
+    padding-bottom: 25px;
+}
 
+/*---------------------------------------------Contact section */
+
+.contact-section {
+    background-color: #42f5b9;
+    color: #0f4d19;
+    padding: 25px 50px 25px; 
+}
+
+.contact-section h3 {
+    padding-bottom: 10px;
+}
+
+#emailHelp {
+    margin-bottom: 15px;
+} 
+
+#password {
+    margin-bottom: 25px;
+}
+
+#submit {
+    background-color: #0f4d19;
+    color: #42f5b9;
+    border: 0;
+}
+
+#contact-width {
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+label {
+    padding-bottom: 5px;
+}
 
 
 
