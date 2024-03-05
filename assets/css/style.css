@@ -9,7 +9,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 260px;
+    min-height: 360px;
 }
 
 #no-gutter {
@@ -117,7 +117,8 @@ footer a {
 span {
     color: #42f5b9;
     font-size: 25px;
-    padding: 0px 100px 0 100px;    
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .fa-book {
@@ -183,5 +184,43 @@ label {
     padding-bottom: 5px;
 }
 
+/*---------------------------------------------Media queries */
 
+@media only screen and (max-width: 767.5px) {
+    
+    #footer-left {
+      display: none;
+    }
 
+    #select-page {
+        height: 70px;
+    }
+
+    .nav-item {
+        margin: 0;
+        padding-top: 7px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .title {
+        padding-top: 13px;
+        padding-bottom: 6px;
+    }
+
+    .social {
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 443.5px) {
+
+    .nav-item {
+        margin: 0;
+        padding-top: 7px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
