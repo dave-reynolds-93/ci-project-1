@@ -11,14 +11,14 @@
 <body>
     <header class="container-fluid" id="no-gutter">
         <div class="row top">
-            <div class="col-md-4">
+            <div class="col-md-4" id="select-page">
                 <div class="bg-color-light">
                     <ul class="nav justify-content-center lora">
                         <li class="nav-item">
                         <a class="nav-link active" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="video.html">Tutorial</a>
+                        <a class="nav-link" href="video.html">Inspiration</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
@@ -35,23 +35,25 @@
         <div class="row" id="no-gutter">
             <a class="col-md-4 logo" href="index.html"></a>
             <div class="col-md-8 video-section">
-                <h3 id="video-heading" class="ssf">How to + 3</h3>
-                <video width="400" controls>
-                    <source src="mov_bbb.mp4" type="video/mp4">
-                    <source src="mov_bbb.ogg" type="video/ogg">
-                    Your browser does not support HTML video.
-                </video>                   
+                <h3 id="video-heading" class="ssf">Are you ready?</h3>
+                <div id="video-div">
+                    <video controls>
+                        <source src="assets/videos/maths.mp4" type="video/mp4">
+                        <source src="mov_bbb.ogg" type="video/ogg">
+                        Your browser does not support HTML video.
+                    </video> 
+                </div>                  
             </div>
         </div>
     </section>
     <footer class="container-fluid">
         <div class="row">
-            <div class="col-md-4 bg-color-light lora">
+            <div id="footer-left" class="col-md-4 bg-color-light lora">
                 <div class="business">
                     <a href="index.html"><i class="fa-solid fa-book"></i> Maths Tuition With Dave</a>
                 </div>
             </div>
-            <div class="col-md-8 bg-color-dark ssf">
+            <div class="col-md-8 bg-color-dark ssf" id="social">
                 <div class="social">
                     <span><i class="fa-brands fa-facebook"></i></span>
                     <span><i class="fa-brands fa-twitter"></i></span>

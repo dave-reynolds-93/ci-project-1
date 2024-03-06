@@ -16,6 +16,7 @@ body {
     --bs-gutter-x: 0;
 }
 
+
 /*--------------------------------------------Fonts*/
 
 .lora {
@@ -148,6 +149,14 @@ span {
     padding-bottom: 25px;
 }
 
+video {
+    width: 400px;
+    height: auto;
+}
+
+
+
+
 /*---------------------------------------------Contact section */
 
 .contact-section {
@@ -184,6 +193,10 @@ label {
     padding-bottom: 5px;
 }
 
+.contact-icon {
+    padding-right: 10px;
+}
+
 /*---------------------------------------------Media queries */
 
 @media only screen and (max-width: 767.5px) {
@@ -212,6 +225,15 @@ label {
         padding-top: 20px;
         margin-bottom: 20px;
     }
+
+    video {
+        width: 300px;
+    }
+
+    .main-icon {
+        display: block;
+        padding-bottom: 10px;
+    }
 }
 
 @media only screen and (max-width: 443.5px) {
@@ -221,6 +243,10 @@ label {
         padding-top: 7px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    video {
+        width: 300px;
     }
 
 }
