@@ -4,15 +4,15 @@ body {
     height: 100%;
 }
 
-/* .logo {
+.logo {
     background: url("../images/dave.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
-} */
+}
 
-#no-gutter {
+#no-gutter1, #no-gutter2 {
     --bs-gutter-x: 0;
 }
 
