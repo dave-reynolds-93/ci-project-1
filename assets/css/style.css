@@ -4,13 +4,13 @@ body {
     height: 100%;
 }
 
-.logo {
+/* .logo {
     background: url("../images/dave.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
-}
+} */
 
 #no-gutter {
     --bs-gutter-x: 0;
@@ -55,6 +55,11 @@ header {
 .nav-link {
     color: #0f4d19;
     font-size: 15px;
+    padding: 0;
+}
+
+.nav-link:hover {
+    color: white;
 }
 
 .title {
@@ -70,8 +75,20 @@ header {
     padding-right: 0;
 }
 
+/*---------------------------------------------Section Picture */
 
-
+.img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+    
+}
+img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
 
 /*---------------------------------------------Index Main */
 
@@ -115,15 +132,17 @@ footer a {
     text-decoration: none;
 }
 
-span {
+.social i {
     color: #42f5b9;
     font-size: 25px;
     margin-left: 15%;
     margin-right: 15%;
+    margin-top: 5px;
+    cursor: pointer;
 }
 
 .fa-book {
-    padding-right: 2px;
+    padding-right: 5px;
 }
 
 .business {
@@ -196,6 +215,21 @@ label {
 .contact-icon {
     padding-right: 10px;
 }
+
+/*---------------------------------------------Thanks section */
+
+.thanks-section {
+    background-color: #42f5b9;
+    color: #0f4d19; 
+}
+
+.thanks-section h3 {
+    display: inline-block;
+    text-align: center;
+    margin: 60px
+}
+
+
 
 /*---------------------------------------------Media queries */
 

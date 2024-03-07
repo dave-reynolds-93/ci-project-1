@@ -33,10 +33,15 @@
     </header>
     <section>
         <div class="row" id="no-gutter">
-            <a class="col-md-4 logo" href="index.html"></a>
+            <div class="col-md-4">
+                <img src="assets/images/dave.jpg" alt="Man in a hat">
+            </div>
+            <!-- <a class="col-md-4 logo" href="index.html"></a> -->
             <div class="col-md-8 main">
                 <div class="main-info">
-                    <h2 class="lora"><i class="fa-solid fa-briefcase main-icon"></i>Experienced</h2>
+                    <h2 class="lora">
+                        <i class="fa-solid fa-briefcase main-icon" aria-hidden="true"></i>Experienced
+                    </h2>
                     <p class="ssf">
                         I have thousands of hours of maths tuition. From home
                         education to those in school. Whether you are looking to pass, or looking to
@@ -44,7 +49,8 @@
                     </p>
                 </div>
                 <div class="main-info">
-                    <h2 class="lora"><i class="fa-solid fa-couch main-icon"></i>Convenient</h2>
+                    <h2 class="lora">
+                        <i class="fa-solid fa-couch main-icon" aria-hidden="true"></i>Convenient</h2>
                     <p class="ssf">
                         Having moved online in 2020, you can now recieve tutoring from the comfort 
                         of your own home, without having to commute anywhere. Students are more relaxed at home,
@@ -52,7 +58,8 @@
                     </p>
                 </div>
                 <div class="main-info">
-                    <h2 class="lora"><i class="fa-solid fa-person main-icon"></i>Tailored to you</h2>
+                    <h2 class="lora">
+                        <i class="fa-solid fa-person main-icon" aria-hidden="true"></i>Tailored to you</h2>
                     <p class="ssf">
                         I am able to provide a tailored program for the student. Whatever their needs, I can adapt 
                         to meet them, providing a learning program that is suited to their needs, and helps them
@@ -66,13 +73,26 @@
         <div class="row">
             <div id="footer-left" class="col-md-4 bg-color-light lora">
                 <div class="business">
-                    <a href="index.html"><i class="fa-solid fa-book"></i> Maths Tuition With Dave</a>
+                    <a href="index.html">
+                        <i class="fa-solid fa-book" aria-hidden="true"></i>Maths Tuition With Dave
+                    </a>
                 </div>
             </div>
             <div class="col-md-8 bg-color-dark ssf" id="social">
                 <div class="social">
-                    <span><i class="fa-brands fa-facebook"></i></span>
-                    <span><i class="fa-brands fa-twitter"></i></span>
+                    <i class="fa-brands fa-facebook" aria-hidden="true" href="#"></i>
+                    <span class="sr-only">Facebook</span>
+                    <i class="fa-brands fa-twitter" aria-hidden="true" href="#"></i>
+                    <span class="sr-only">Twitter</span>
+
+                    <!-- <a target="_blank" href="#">
+                        <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                    <a target="_blank" href="#">
+                        <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a> -->
                 </div>
             </div>
         </div>
