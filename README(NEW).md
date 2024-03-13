@@ -66,8 +66,8 @@ This is a tutoring site with the aim of attaining more students. It is aimed at 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -111,7 +111,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   The image I used is leaving white space above and below it as I shrink the screen down to tablet size.
+-   The image is leaving white space above and below it as I shrink the screen down to tablet size. It is also leaving white space to the right of it as the screen width gets very large.
 
 ### Bugs that were fixed
 
@@ -174,7 +174,13 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   [Bootstrap 5.3.2](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System, and
 also for styling.
 
--   I got the code for the navbar from the [Bootsrap Documentation:](https://getbootstrap.com/docs/4.1/components/navbar/)
+-   I got the code for the navbar from the [Bootstrap Documentation](https://getbootstrap.com/docs/4.1/components/navbar/)
+
+-   I got the code for the 10 second refresh on the thank you page from my mentor.
+
+-   I got the code for the form on the contact.html page from the [Bootstrap Documentation](https://getbootstrap.com/docs/4.1/components/forms/)
+
+-   I got the code for the video from [W3schools](https://www.w3schools.com/html/html5_video.asp)
 
 ### Content
 
