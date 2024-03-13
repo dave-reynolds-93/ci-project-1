@@ -1,15 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 
 body {
-    height: 100%;
-}
-
-.logo {
-    background: url("../images/dave.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
+    height: 100vh;
 }
 
 #no-gutter1, #no-gutter2 {
@@ -77,17 +69,11 @@ header {
 
 /*---------------------------------------------Section Picture */
 
-.img-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden
-    
-}
 img {
     flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 /*---------------------------------------------Index Main */
@@ -130,6 +116,12 @@ footer {
 footer a {
     color: #0f4d19;
     text-decoration: none;
+}
+
+.social-anchor {
+    display: inline-block;
+    width: 25px;
+    margin: 0 16%;
 }
 
 .social i {
@@ -277,8 +269,49 @@ label {
         margin-right: 0;
     }
 
+    .nav-link {
+        padding: 10px;
+        margin-top: -5px;
+    }
+
     video {
         width: 300px;
+    }
+
+}
+
+@media only screen and (min-width: 1100px) {
+
+    .main-info, #video-heading {
+        padding-top: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .main-info, #video-heading {
+        padding-top: 40px;
+    }
+
+    #contact-heading {
+        padding-top: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 1300px) {
+
+    .main-info {
+        padding-top: 60px;
+    }
+
+    #video-heading {
+        padding-top: 80px;
+    }
+
+    #contact-heading {
+        padding-top: 30px;
     }
 
 }

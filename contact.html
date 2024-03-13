@@ -34,15 +34,18 @@
     </header>
     <section>
         <div class="row" id="no-gutter2">
-            <a class="col-md-4 logo" href="index.html"></a>
+            <div class="col-md-4 img-div">
+                <img src="assets/images/dave.jpg" alt="Man in a hat">
+            </div>
             <div class="col-md-8 contact-section">
                 <div id="contact-width">
                     <div>
-                        <h3 id="contact-heading" class="lora"><i class="fa-solid fa-envelope contact-icon"></i>Get in touch</h3>
+                        <h3 id="contact-heading" class="lora"><i class="fa-solid fa-envelope contact-icon" aria-hidden="true"></i>Get in touch</h3>
                         <p class="ssf">If you would like any more information, or would like to book an initial
                             session, please fill out the contact form below.
                         </p>
                     </div>
+                    <!-- Form code sourced from bootstrap docs. The action destination was my mentors idea. -->
                     <form action="thanks.html">
                         <div class="form-group">
                             <label for="email" class="lora">Email address</label>
@@ -68,8 +71,14 @@
             </div>
             <div class="col-md-8 bg-color-dark ssf" id="social">
                 <div class="social">
-                    <span><i class="fa-brands fa-facebook"></i></span>
-                    <span><i class="fa-brands fa-twitter"></i></span>
+                    <a target="_blank" href="#">
+                        <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                    <a target="_blank" href="#">
+                        <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
                 </div>
             </div>
         </div>

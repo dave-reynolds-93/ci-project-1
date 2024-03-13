@@ -60,7 +60,7 @@ This is a tutoring site with the aim of attaining more students. It is aimed at 
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+    - Balsamiq was used to create the [wireframes](/assets/wireframes/Wireframes.pdf) during the design process.
 
 ## Testing
 
@@ -111,12 +111,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   The clickable areas for the social links in the footer are too wide.
--   The image isn't displaying correctly, and is making the screen height too big.
+-   The image I used is leaving white space above and below it as I shrink the screen down to tablet size.
 
 ### Bugs that were fixed
 
 -   There was a thin white gutter to the right of the header, and also the header and sections didn't line up properly. I fixed this by giving the section and header their own id and by setting the --bs-gutter-x to 0. I worked out this needed to be done by inspecting the css on chrome developer tools.
+-   The code failed the html validator as I had used the same ID twice. I fixed this by changing the ID names.
+-   The social links in the footer had a clickable area that was wider than the icon. This was poor UX. I tried changing the width of the anchor tag, but it didn't work. I then discovered on a forum that to change the width of an anchor tag you have to set the display to inline-block. It then worked.
+
 
 ## Deployment
 
