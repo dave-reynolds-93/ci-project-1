@@ -8,7 +8,6 @@ body {
     --bs-gutter-x: 0;
 }
 
-
 /*--------------------------------------------Fonts*/
 
 .lora {
@@ -102,10 +101,8 @@ img {
 }
 
 .main-info {
-    padding-top: 15px;
+    padding-top: 5px;
 }
-
-
 
 /*---------------------------------------------Footer */
 
@@ -156,6 +153,11 @@ footer a {
     padding: 40px 50px 50px; 
 }
 
+.video-section p {
+    padding-top: 30px;
+    font-size: larger;
+}
+
 #video-heading {
     padding-bottom: 25px;
 }
@@ -164,9 +166,6 @@ video {
     width: 400px;
     height: auto;
 }
-
-
-
 
 /*---------------------------------------------Contact section */
 
@@ -216,12 +215,42 @@ label {
 .thanks-section h3 {
     display: inline-block;
     text-align: center;
-    margin: 100px 60px 60px
+    margin: 120px 60px 60px
 }
 
-
-
 /*---------------------------------------------Media queries */
+
+@media only screen and (max-width: 1100px) and (min-width: 967px) {
+
+    .main-info h2, .main-info p {
+        font-size: 85%;
+    }    
+
+}
+
+@media only screen and (max-width: 966px) and (min-width: 882px) {
+
+    .main-info h2, .main-info p {
+        font-size: 75%;
+    }    
+
+}
+
+@media only screen and (max-width: 881.5px) and (min-width: 795px) {
+
+    .main-info h2, .main-info p {
+        font-size: 65%;
+    }    
+
+}
+
+@media only screen and (max-width: 794.5px) and (min-width: 768px) {
+
+    .main-info h2, .main-info p {
+        font-size: 55%;
+    }    
+
+}
 
 @media only screen and (max-width: 767.5px) {
     
@@ -258,6 +287,10 @@ label {
         display: block;
         padding-bottom: 10px;
     }
+
+    .thanks-section h3 {
+        margin-top: 60px;
+    }
 }
 
 @media only screen and (max-width: 443.5px) {
@@ -277,41 +310,148 @@ label {
     video {
         width: 300px;
     }
-
 }
 
 @media only screen and (min-width: 1100px) {
 
-    .main-info, #video-heading {
+    #video-heading {
         padding-top: 20px;
     }
-
 }
 
 @media only screen and (min-width: 1200px) {
 
-    .main-info, #video-heading {
+    #video-heading {
         padding-top: 40px;
     }
 
     #contact-heading {
         padding-top: 20px;
     }
-
 }
 
 @media only screen and (min-width: 1300px) {
 
-    .main-info {
-        padding-top: 60px;
+    .main h2 {
+        font-size: 120%;
+        padding-top: 1%;
+    }
+
+    .main p {
+        font-size: 120%;
     }
 
     #video-heading {
-        padding-top: 80px;
+        padding-top: 50px;
+    }
+
+    .video-section p {
+        font-size: 140%;
     }
 
     #contact-heading {
         padding-top: 30px;
     }
 
+    .thanks-section h3 {
+        padding-top: 50px;
+    }
 }
+
+@media only screen and (min-width: 1500px) {
+
+    .main h2, .main p {
+        font-size: 140%;
+    }
+
+    #contact-heading {
+        padding-top: 50px;
+        font-size: 200%;
+    }
+
+    #contact-heading + p, label, #emailHelp {
+        font-size: 130%;
+    }
+
+    .video-section p {
+        font-size: 180%;
+    }
+
+    #video-heading {
+        padding-top: 50px;
+        font-size: 200%;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+
+    .main h2, .main p {
+        font-size: 160%;
+    }
+
+    #video-heading {
+        padding-top: 120px;
+        font-size: 250%;
+    }
+
+    .video-section p {
+        font-size: 230%;
+    }
+
+    #contact-heading {
+        padding-top: 100px;
+    }
+
+    .thanks-section h3 {
+        padding: 100px;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+
+    .main h2, .main p {
+        font-size: 180%;
+    }
+
+    #video-heading {
+        padding-top: 120px;
+        font-size: 300%;
+    }
+
+    .video-section p {
+        font-size: 280%;
+    }
+
+    #contact-heading {
+        padding-top: 100px;
+        font-size: 300%;
+    }
+
+    #contact-heading + p, label, #emailHelp {
+        font-size: 200%;
+    }
+
+    .thanks-section h3 {
+        padding: 100px;
+    }
+}
+
+@media only screen and (min-width: 2100px) {
+
+    .main h2, .main p {
+        font-size: 200%;
+    }
+
+    #video-heading {
+        padding-top: 120px;
+    }
+
+    #contact-heading {
+        padding-top: 100px;
+    }
+
+    .thanks-section h3 {
+        padding: 100px;
+    }
+}
+

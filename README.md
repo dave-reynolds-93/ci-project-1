@@ -1,5 +1,7 @@
 <h1 align="center">Maths Tuition With Dave Website</h1>
 
+![index.html](/assets/images/indexDesktop.png)
+
 [View the live project here.](https://dave-reynolds-93.github.io/ci-project-1/)
 
 This is a tutoring site with the aim of attaining more students. It is aimed at parents of children studying maths, and also people studying maths. Features include information about the services, with easy navigation of multiple pages.
@@ -23,7 +25,7 @@ This is a tutoring site with the aim of attaining more students. It is aimed at 
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are #42f5b9, and #0f4d19.
+        -   The two main colours used are #42f5b9, and #0f4d19. ![](/assets/images/colourContrast.png)
     -   #### Typography
         -   Lora and Source Serif 4 are the 2 fonts used throughout the website, with serif as the fallback font in case for any reason the fonts aren't being imported into the site correctly. The 2 fonts are very clean, and give the website a professional feel.
     -   #### Imagery
@@ -111,14 +113,40 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   The image is leaving white space above and below it as I shrink the screen down to tablet size. It is also leaving white space to the right of it as the screen width gets very large.
+-   The image is leaving white space to the right of it as the screen width gets larger than 2160px.
 
 ### Bugs that were fixed
 
 -   There was a thin white gutter to the right of the header, and also the header and sections didn't line up properly. I fixed this by giving the section and header their own id and by setting the --bs-gutter-x to 0. I worked out this needed to be done by inspecting the css on chrome developer tools.
 -   The code failed the html validator as I had used the same ID twice. I fixed this by changing the ID names.
 -   The social links in the footer had a clickable area that was wider than the icon. This was poor UX. I tried changing the width of the anchor tag, but it didn't work. I then discovered on a forum that to change the width of an anchor tag you have to set the display to inline-block. It then worked.
+-   The image was leaving white space below it on the index.html page when the screen width was between 1100px and 768px. I fixed this by reducing the font size in the main section of the page.
 
+### Screenshots
+
+1. index.html desktop and mobile.
+
+![index.html desktop](/assets/images/indexDesktop.png)
+![index.html mobile top](/assets/images/indexMobileTop.png)
+![index.html mobile bottom](/assets/images/indexMobileBottom.png)
+
+2. video.html desktop and mobile
+
+![video.html desktop](/assets/images/videoDesktop.png)
+![video.html mobile top](/assets/images/videoMobileTop.png)
+![video.html mobile bottom](/assets/images/videoMobileBottom.png)
+
+3. contact.html desktop and mobile
+
+![contact.html desktop](/assets/images/contactDesktop.png)
+![contact.html mobile top](/assets/images/contactMobileTop.png)
+![contact.html mobile bottom](/assets/images/contactMobileBottom.png)
+
+4. thanks.html desktop and mobile
+
+![thanks.html desktop](/assets/images/thanksDesktop.png)
+![thanks.html mobile top](/assets/images/thanksMobileTop.png)
+![thanks.html mobile bottom](/assets/images/thanksMobileBottom.png)
 
 ## Deployment
 
@@ -151,13 +179,13 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/dave-reynolds-93/ci-project-1
 ```
 
 7. Press Enter. Your local clone will be created.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/dave-reynolds-93/ci-project-1
 > Cloning into `CI-Clone`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
