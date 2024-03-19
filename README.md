@@ -71,6 +71,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
+1.  Index page html validated.
+![Index Validated](/assets/images/htmlValidatorIndex.png)
+2.  Video page html validated.
+![Video Validated](/assets/images/htmlValidatorVideo.png)
+3.  Contact page html validated.
+![Contact Validated](/assets/images/htmlValidatorContact.png)
+4.  Thanks page html validated.
+![Thanks Validated](/assets/images/htmlValidatorThanks.png)
+5.  Css validated. The one warning is from the external bootstrap link.
+![Css Validated](/assets/images/cssValidated.png)
+![Css Warning](/assets/images/cssWarning.png)
+
+
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
@@ -113,7 +126,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   The image is leaving white space to the right of it as the screen width gets larger than 2160px.
+-   The font size for the header and footer is a bit smaller than I would like.
 
 ### Bugs that were fixed
 
@@ -121,6 +134,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   The code failed the html validator as I had used the same ID twice. I fixed this by changing the ID names.
 -   The social links in the footer had a clickable area that was wider than the icon. This was poor UX. I tried changing the width of the anchor tag, but it didn't work. I then discovered on a forum that to change the width of an anchor tag you have to set the display to inline-block. It then worked.
 -   The image was leaving white space below it on the index.html page when the screen width was between 1100px and 768px. I fixed this by reducing the font size in the main section of the page.
+- The image was leaving white space to the right of it as the screen width got larger than 2160px. I fixed this by increasing the width of the img tag.
 
 ### Screenshots
 
